@@ -3,6 +3,16 @@ IPLatform
 
 This application is a PaaS. Use the docker, you can build a server environment without an engineer. 
 
+# Memo
+
+```
+docker run -d -p 4243:4243 -p 5000:5000 --name ipl -v //c/Users/koide.IPL/Documents/iplatform/workspace:/root/workspace koide/iplatform
+
+docker exec -it ipl bash
+docker exec -it ipl ls //root/workspace
+```
+
+
 ## Description
 
 ## Demo

@@ -22,7 +22,7 @@ class DockerClient:
                 ## development
                 # base_url='tcp://192.168.59.103:2376',
                 base_url='tcp://0.0.0.0:4243',
-                version='1.12',
+                # version='1.12',
                 timeout=10
             )
         except Exception as e:
